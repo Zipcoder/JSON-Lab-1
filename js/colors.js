@@ -1,33 +1,33 @@
-var colorsArray : {
-    colors=[
-        {
+var colorsArray = {
+    "colors":[{
             "name":"green",
-            "red":"64",
-            "green":"175",
-            "blue":"63",
+            "red":"#f00",
+            "green":"#0f0",
+            "blue":"#00f"
         },
         {
             "name":"yellow",
-            "red":"239",
-            "green":"183",
-            "blue":"62"
+            "red":"#f00",
+            "green":"#0f0",
+            "blue":"#00f"
         },
         {
-            name:"red",
-            red:"192",
-            green:"46",
-            blue:"35"
-        }
+            "name":"red",
+            "red":"#f00",
+            "green":"#0f0",
+            "blue":"#00f"
+        },
         {
             "name":"blue",
-            "red":"19",
-            "green":"71",
-            "blue":"144",
+            "red":"#f00",
+            "green":"#0f0",
+            "blue":"#00f"
         },
         {
-            "name"="orange",
-            "red"="253",
-            "green"="92",
-            "blue"="48"
-        },
+            "name":"orange",
+            "red":"#f00",
+            "green":"#0f0",
+            "blue":"#00f"
+        }
     ]
+  };
