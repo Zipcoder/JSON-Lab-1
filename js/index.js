@@ -1,3 +1,4 @@
+" use strict ";
 //Function to grab random int between min - max
 var randomInt = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
