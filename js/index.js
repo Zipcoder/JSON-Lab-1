@@ -17,7 +17,7 @@ window.onload = function()
 	canvas.width = W;
 	canvas.height = H;
 
-	//console.log("my color request: "+colorsArray);
+	console.log("my color request: "+colorsArray);
 
 	/*===============Box class=================================*/
 	function Box(_x, _y)
@@ -39,12 +39,12 @@ window.onload = function()
 		this.g = Math.round(Math.random()*255);
 		this.b = Math.round(Math.random()*255);*/
 
-		this.randomColor = randomInt(0,colorsArray.colors.length-1);
-		this.r = colorsArray.colors[this.randomColor].red;
-		this.g = colorsArray.colors[this.randomColor].green;
-		this.b = colorsArray.colors[this.randomColor].blue;
+		this.randomColor = randomInt(0, colorsArray.length - 1);
+		this.r = colorsArray[this.randomColor].red;
+		this.g = colorsArray[this.randomColor].green;
+		this.b = colorsArray[this.randomColor].blue;
 
-		console.log(colorsArray);
+		//console.log(colorsArray);
 
 
 		this.rgba = "rgba("+this.r+","+this.g+","+this.b+",1)";
