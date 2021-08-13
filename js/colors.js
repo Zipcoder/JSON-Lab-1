@@ -17,7 +17,7 @@ var colorsArray = {
             "red":"192",
             "green":"46",
             "blue":"35"
-        }
+        },
         {
             "name":"blue",
             "red":"19",
@@ -31,3 +31,4 @@ var colorsArray = {
             "blue":"48"
         }
     ]
+    }
